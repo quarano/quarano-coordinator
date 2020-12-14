@@ -1,0 +1,30 @@
+{
+	"_embedded" : {
+		"systems" : {
+			"internal-dev" : {
+				"title" : "Internes Development System",
+				"type" : "internal",
+				"_links" : {
+					"self" : {
+						"href" : "https://quarano.de/internal-dev"
+					},
+					"api" : {
+						"href" : "https://quarano.de/internal-dev/api"
+					}
+				}
+			},
+			"internal-test" : {
+				"title" : "Internes Test System",
+				"type" : "internal",
+				"_links" : {
+					"self" : {
+						"href" : "https://quarano.de/internal-test"
+					},
+					"api" : {
+						"href" : "https://quarano.de/internal-test/api"
+					}
+				}
+			}
+		}
+	}
+}
