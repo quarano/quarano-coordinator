@@ -1,10 +1,19 @@
 applications:
-  ###############   Quarano Coordinator PROD #########################
-      - name: quarano-coordinator
-        memory: 64M
-		disk_quota: 50M		
-        buildpacks:
-          - https://github.com/cloudfoundry/nginx-buildpack.git
-        path: ./
-        routes:
-          - route: quarano.de/coordinator		  
+ ###############   Quarano Coordinator PROD #########################
+    - name: quarano-api
+      memory: 64M
+      disk_quota: 50M		
+      buildpacks:
+        - https://github.com/cloudfoundry/nginx-buildpack.git
+      path: ./
+      routes:
+        - route: quarano.de/api	    
+ ###############   Quarano Coordinator INTERNAL #########################
+    - name: quarano-api-internal
+      memory: 64M
+      disk_quota: 50M		
+      buildpacks:
+        - https://github.com/cloudfoundry/nginx-buildpack.git
+      path: ./
+      routes:
+        - route: quarano.de/api-internal	
