@@ -4,6 +4,7 @@
 			"internal-dev" : {
 				"title" : "Internes Development System",
 				"type" : "internal",
+				"zipCodes" : [ "99999" ],
 				"_links" : {
 					"self" : {
 						"href" : "https://quarano.de/internal-dev"
@@ -16,6 +17,7 @@
 			"internal-test" : {
 				"title" : "Internes Test System",
 				"type" : "internal",
+				"zipCodes" : [ "88888" ],
 				"_links" : {
 					"self" : {
 						"href" : "https://quarano.de/internal-test"
