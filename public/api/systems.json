@@ -1,0 +1,32 @@
+{
+	"_embedded" : {
+		"systems" : {
+			"cuxhaven" : {
+				"title" : "Cuxhaven",
+				"type" : "customer",
+				"rkiCode" : "1.03.3.52.",
+				"_links" : {
+					"self" : {
+						"href" : "https://quarano.de/cuxhaven"
+					},
+					"api" : {
+						"href" : "https://quarano.de/cuxhaven/api"
+					}
+				}
+			},
+			"mannheim" : {
+				"title" : "Mannheim",
+				"type" : "customer",
+				"rkiCode" : "1.08.2.22.",
+				"_links" : {
+					"self" : {
+						"href" : "https://quarano.de/mannheim"
+					},
+					"api" : {
+						"href" : "https://quarano.de/mannheim/api"
+					}
+				}
+			}
+		}
+	}
+}
